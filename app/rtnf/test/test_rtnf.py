@@ -1,6 +1,6 @@
 from datetime import datetime
 import unittest
-from ..src.rtnf import is_datetime_object, to_rnt_time, to_rtn_datetime
+from ..src.rtnf import is_datetime_object, to_rtn_time, to_rtn_datetime
 
 
 class TestDateTimeConversion(unittest.TestCase):
@@ -18,12 +18,12 @@ class TestDateTimeConversion(unittest.TestCase):
         # Test with a valid datetime object
         datetime_obj = datetime(2023, 9, 30, 19, 0)
         expected_result = "1900"
-        self.assertEqual(to_rnt_time(datetime_obj), expected_result)
+        self.assertEqual(to_rtn_time(datetime_obj), expected_result)
 
         # Test with an invalid object
         invalid_obj = "2023-05-21"
         with self.assertRaises(ValueError):
-            to_rnt_time(invalid_obj)
+            to_rtn_time(invalid_obj)
 
     def test_to_rnt_datetime(self):
         # Test with a valid datetime object

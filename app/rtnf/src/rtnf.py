@@ -15,7 +15,7 @@ def is_datetime_object(datetime_to_check: datetime):
     return isinstance(datetime_to_check, datetime)
 
 
-def to_rnt_time(datetime_to_convert: datetime):
+def to_rtn_time(datetime_to_convert: datetime):
     """
     Convert the given datetime object to a string in the Royal Thai Navy time format.
 
