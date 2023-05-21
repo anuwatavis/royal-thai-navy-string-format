@@ -8,7 +8,7 @@ RTNF is a Python package that provides functions to convert datetime objects to 
 # Installation
 You can install RTNF using pip:
 ```bash
-# pip install -i https://test.pypi.org/simple/ rtnf==1.2.0
+pip install -i https://test.pypi.org/simple/ rtnf==1.2.0
 ```
 
 # Usage
