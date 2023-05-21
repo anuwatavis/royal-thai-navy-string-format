@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./../docs/cover.png"/>
+<img src="https://raw.githubusercontent.com/anuwatavis/royal-thai-navy-string-format/main/docs/cover.png"/>
 </div>
 
 # RTNF (Royal Thai Navy String Format)
