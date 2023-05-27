@@ -19,7 +19,7 @@ from rtnf import to_rnt_date, to_rnt_time
 # Convert datetime to Royal Thai Navy date format
 current_datetime = datetime.now()
 rnt_date = to_rnt_date(current_datetime)
-print(rnt_date)  # Output: DDMMYYYY
+print(rnt_date)  # Output: DDHHMM
 
 # Convert datetime to Royal Thai Navy time format
 current_datetime = datetime.now()
