@@ -20,7 +20,6 @@ publishtestpypi:
 	twine check dist/*  
 	twine upload -r testpypi dist/*
 
-
 publishpypi:
 	make clean
 	make test
